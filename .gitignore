@@ -1,0 +1,27 @@
+# === Secretos (red de seguridad — NUNCA commitear) ===
+*.env
+*secret*
+*token*
+research_secrets*
+*.key
+*credentials*
+
+# === OS / OneDrive ===
+desktop.ini
+Thumbs.db
+.DS_Store
+ehthumbs.db
+
+# === Temporales de Office ===
+~$*
+*.tmp
+*.bak
+
+# === Data cruda / temporal (no versionar) ===
+raw/
+scratchpad/
+_*.json
+*.parquet
+
+# === Claude Code config local ===
+.claude/
