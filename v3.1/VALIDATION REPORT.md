@@ -14,10 +14,17 @@
 | DOC 20 — Mapa de Dolores + Buyer Psychology.md | ⚠️ 0 | 0 | 0 | 0 | no |
 | DOC 21 — Banco de Hooks para Producción.md | ⚠️ 0 | 0 | 0 | 0 | no |
 | CLUSTER_REPORT.md | 0 | 0 | 0 | 0 | no |
+| COMPETITOR_MAP b — Deep Research x VoC Contras | 32 | 32 | 0 | 0 | no |
 | COMPETITOR_MAP.md | 0 | 0 | 0 | 0 | no |
 | DATA QUALITY REPORT.md | 0 | 0 | 0 | 0 | no |
 | DOC 00 — Master Spine actualizado.md | ⚠️ 0 | 0 | 0 | 0 | SÍ ⚠️ |
+| DOC 00 — Master Spine v3.2 (post-contraste).md | 27 | 27 | 0 | 0 | no |
 | DOC 14 — Banco de Evidencia Canónico.md | 51 | 51 | 0 | 0 | no |
+| DOC 15b — Avatar Deep Research x VoC Contrasta | 33 | 33 | 0 | 0 | no |
+| DOC 18b — Deseos — Deep Research x VoC Contras | 19 | 19 | 0 | 0 | no |
+| DOC 19b — Mecanismo UMP-UMS — Deep Research x  | 25 | 25 | 0 | 0 | no |
+| DOC 20b — Buyer Psychology — Deep Research x V | 36 | 36 | 0 | 0 | no |
+| DOC_15b_Avatar_DeepResearch_x_VoC_Contrastado. | 28 | 28 | 0 | 0 | no |
 | MOTOR DE RESEARCH v3.1 — Spec Operativo.md | ⚠️ 0 | 0 | 0 | 0 | SÍ ⚠️ |
 | README — Cómo ejecutar este motor en otro prod | ⚠️ 0 | 0 | 0 | 0 | no |
 | RECONCILIATION PASS.md | 0 | 0 | 0 | 0 | no |
