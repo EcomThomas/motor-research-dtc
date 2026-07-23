@@ -45,7 +45,7 @@ Brief → F0 (_hipotesis + _taxonomia + _semillas)
 
 **FASE 5 — hermética de verdad.** El constructor es un agente cuyo prompt contiene evolve-avatares.md COMPLETO + los insumos permitidos (§0) + nada más — ni synthesis, ni extraction, ni tu opinión. Los conteos del doc 21 los calculas TÚ con script y se los das. Después: QC con OTRO agente fresco (solo evolve + doc 21 + quotes), script anti-fab, actualizar doc 00. Si el QC tacha algo, se corrige y se re-pasa el QC — no se negocia con él.
 
-**FASE 6 — cierre BBUILDERS.** Doc 10 (cada ángulo re-narra el MISMO UMP del 19 y llama a un avatar del 21) → Master Spine consolidado vN desde el esqueleto del producto (SIN oferta/pricing — eso es SOP-MKT-04) → reconciliación con los contrastes (changelog si algo se refutó) → subir a Drive. Los tokens (Apify, TrendTrack, Foreplay, GetHookd) viven en `C:\Users\Thomas\research_secrets.env` — jamás pegarlos en docs ni en OneDrive.
+**FASE 6 — cierre BBUILDERS.** Doc 10 (cada ángulo re-narra el MISMO UMP del 19 y llama a un avatar del 21) → Master Spine consolidado vN desde el esqueleto del producto (SIN oferta/pricing — eso es SOP-MKT-04) → reconciliación con los contrastes (changelog si algo se refutó) → subir a Drive. Los tokens (Apify, TrendTrack, Foreplay, GetHookd) viven en TU archivo de secretos (`<tu-carpeta-personal>\research_secrets.env`, o la ruta de `MOTOR_SECRETS`) — jamás pegarlos en docs ni en OneDrive.
 
 ## 3b. Ruteo de modelos (inteligencia donde vive el juicio, volumen donde vive el costo)
 
