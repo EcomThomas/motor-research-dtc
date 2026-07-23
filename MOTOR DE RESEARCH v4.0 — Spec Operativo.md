@@ -3,7 +3,7 @@
 > **v4.0 = fusión del motor v3.3 con el sistema VoC corpus-first "Master Skill Research"** (skill de referencia externa, piloteada en Chile — original intacto en `SISTEMAS Y SOPS INTERNOS\METODOS\SKILL-VOC-RESEARCH-AMIGO\`).
 > Decisión de Thomas (2026-07-17): adoptar TODAS las mejoras del sistema externo, **sacar oferta/pricing del research** (ahora vive en SOP-MKT-04) y aceptar mayor gasto por research (corpus grande > research barato).
 >
-> **El motor ahora es EJECUTABLE como skill**: `/voc-research` (instalada a nivel usuario en `C:\Users\Thomas\.claude\skills\voc-research\` — disponible en cualquier sesión de Claude Code). Este documento es la AUTORIDAD del mapa de docs y las decisiones de diseño; la skill es el manual de ejecución. Si contradicen algo, manda este doc y se corrige la skill.
+> **El motor ahora es EJECUTABLE como skill**: `/voc-research` (instalada a nivel usuario en `~/.claude/skills/voc-research/` — disponible en cualquier sesión de Claude Code). Este documento es la AUTORIDAD del mapa de docs y las decisiones de diseño; la skill es el manual de ejecución. Si contradicen algo, manda este doc y se corrige la skill.
 
 ---
 
@@ -82,8 +82,8 @@ Metas por defecto ("gastaremos más" — decisión 2026-07-17): corpus ≥30.000
 
 | Qué | Estado | Detalle |
 |---|---|---|
-| Skill `/voc-research` | ✅ instalada | `C:\Users\Thomas\.claude\skills\voc-research\` (nivel usuario — todas las sesiones) |
-| Tokens | ✅ | `C:\Users\Thomas\research_secrets.env` (`APIFY_TOKEN`, `TRENDTRACK_TOKEN`, `FOREPLAY_TOKEN`, `GETHOOKD_TOKEN`) — fuera de OneDrive, jamás en docs |
+| Skill `/voc-research` | ✅ instalada | `~/.claude/skills/voc-research/` (nivel usuario — todas las sesiones) |
+| Tokens | ✅ | `<tu-carpeta-personal>\research_secrets.env` (`APIFY_TOKEN`, `TRENDTRACK_TOKEN`, `FOREPLAY_TOKEN`, `GETHOOKD_TOKEN`) — fuera de OneDrive, jamás en docs |
 | **MCP Apify** | ⚠️ PENDIENTE | Requerido para F2. Instalar: `claude mcp add apify --scope user --env APIFY_TOKEN=<token> -- npx -y @apify/actors-mcp-server` (o el MCP hosted de Apify). Sin esto la skill no puede lanzar actors |
 | **Brave Search** (discovery) | ⚠️ opcional recomendado | Con `BRAVE_API_KEY`: `claude mcp add brave-search --scope user --env BRAVE_API_KEY=<key> -- npx -y @modelcontextprotocol/server-brave-search`. Fallback sin Brave: WebSearch/Chrome (declarándolo) |
 | MCP Google Drive | ✅ conectado | Subida del Spine a la carpeta del producto |

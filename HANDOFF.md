@@ -57,7 +57,7 @@ Es un **ejemplo de ejecución** que probó el motor, no parte del motor generali
 - **90/95%:** la oferta/pricing quedó **fuera** del research (SOP-MKT-04).
 
 ## 8. Seguridad / GitHub
-- Tokens (`APIFY_TOKEN`, `TRENDTRACK_TOKEN`, `FOREPLAY_TOKEN`, `GETHOOKD_TOKEN`, `GITHUB_TOKEN`) en `C:\Users\Thomas\research_secrets.env` — **fuera del repo**, nunca commiteados (`.gitignore` protege `*token*`/`*.env`).
+- Tokens (`APIFY_TOKEN`, `TRENDTRACK_TOKEN`, `FOREPLAY_TOKEN`, `GETHOOKD_TOKEN`, `GITHUB_TOKEN`) en `<tu-carpeta-personal>\research_secrets.env` — **fuera del repo**, nunca commiteados (`.gitignore` protege `*token*`/`*.env`).
 - Repo privado `github.com/EcomThomas/motor-research-dtc`.
 
 ---

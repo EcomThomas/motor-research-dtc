@@ -36,7 +36,7 @@ El motor generalizado y repetible vive en `motor/`: `MOTOR DE RESEARCH v3.1 — 
 El **suplemento hepático MX** fue el primer producto corrido con el motor (research v3.2 post-contraste): Master Spine v3.2, hooks v3.2, los 5 docs de contraste (Deep Research × VoC), briefs, corpus de 13,548 confesiones con IDs, y el `CONSOLIDADO`. Todo vive en `casos/higado-mx/` (con `v3-superado/` = los docs v3 previos al contraste). Es un **ejemplo de ejecución**, no parte del motor generalizado — cualquier producto nuevo arranca con `/voc-research`, no con el hígado.
 
 ## Seguridad
-Los tokens de API (Apify, TrendTrack, Foreplay, GetHookd, GitHub) viven **fuera del repo** en `C:\Users\Thomas\research_secrets.env`. Nunca se commitean (ver `.gitignore`).
+Los tokens de API (Apify, TrendTrack, Foreplay, GetHookd, GitHub) viven **fuera del repo** en `<tu-carpeta-personal>\research_secrets.env`. Nunca se commitean (ver `.gitignore`).
 
 ## Estado
 Motor **v4.0** (ejecutable: skill `/voc-research`) · método/linaje en `motor/` · caso hígado v3.2 (histórico, en `casos/higado-mx/`).

@@ -107,6 +107,30 @@ El flujo operativo (intake → `wf_motor` → persist → ClickUp) está en `RUN
 
 ---
 
+## 4.1 Créditos: quién paga qué (LÉELO)
+
+**Cada quien corre con SUS propias credenciales y su cuenta paga su consumo.** El motor está hecho para eso:
+
+| Costo | Lo paga | Cómo se aísla |
+|---|---|---|
+| **Apify** (scraping del research) | Tu cuenta de Apify | Tu `APIFY_TOKEN`, en TU archivo de secretos |
+| **Ad-spy** (TrendTrack/Foreplay/GetHookd) | Tu suscripción | Tu token |
+| **Agentes de Claude** (el grueso del cómputo) | **Tu cuenta de Claude** | Corres el motor en TU Claude Code |
+| **ClickUp** | Tu token personal (`pk_...`) + **tu propia lista** | `config.local.json` es tuyo y está gitignored |
+
+**Reglas que evitan que le gastes créditos a otro:**
+1. **Nunca compartas ni pidas tokens ajenos.** `.env` y `research_secrets.env` están gitignored: no viajan en el repo.
+2. El motor **no tiene fallback a credenciales de nadie**: si no encuentra TU archivo de secretos, **falla con un mensaje claro** en vez de usar otro. Resolución: `MOTOR_SECRETS` → `<repo>/.env` → error.
+3. Verifica de quién son los secretos que estás usando:
+```bash
+python -c "from scripts.motor_config import secrets_path; print(secrets_path())"
+```
+Debe imprimir **tu** ruta. Si imprime la de otra persona, estás gastando sus créditos: corrige tu `.env`.
+
+> ⚠️ **La única excepción compartida:** si todos trabajan en el **mismo workspace de ClickUp**, los *asientos* los paga el dueño del workspace. Las tareas se crean con tu token en tu lista, pero la suscripción del workspace es del dueño. Coordínalo con él.
+
+---
+
 ## 5. Camino mínimo (sin gastar en research)
 
 Si **ya tienes un Spine** de tu producto, puedes correr **solo el Motor de Creativos**: te basta Claude Code + Python + el repo + `CLICKUP_TOKEN`. El motor de research (Apify + presupuesto) lo necesitas recién cuando quieras **generar** el Spine desde cero.
