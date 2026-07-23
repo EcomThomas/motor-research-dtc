@@ -21,7 +21,7 @@ Llena esta ficha antes de tocar cualquier script. Es lo mismo que la Fase 0 del 
 | 0.5 | **¿Mercado local o nacional?** (local = Google Business/Maps; nacional = marketplace + social) | **SÍ** | Nacional |
 | 0.6 | **Competidores: 1-3 URLs DTC top + sus listings de Amazon (con reseñas 1-3★)** | **SÍ*** | Purelia, Galmio, Wild Dose + ASINs B0F4HH894D, B0D75RHTJ8… |
 | 0.7 | **Vertical + jurisdicción de compliance** → define verbos prohibidos | **SÍ** | Suplemento salud · Profeco (MX) + FTC/FDA (US): prohibido *curar/tratar/revertir/eliminar* |
-| 0.8 | **Presupuesto / tope de ingesta + criterio de parada** (filas máx, lotes máx, USD máx) | Recomendado | ~16k filas / ~$20 USD Apify |
+| 0.8 | **Presupuesto / tope de ingesta + criterio de parada** (filas máx, lotes máx, USD máx) | Recomendado | **Tope estándar BBuilders: $50 USD Apify por producto — y se usa: más data es mejor. El freno es la saturación (Sección 4), no el ahorro** (caso de referencia: ~16k filas / ~$20) |
 | 0.9 | Hipótesis previa de deseo/conciencia/sofisticación · comprador=usuario o hay tercero (regalo) | Recomendado | Sofisticación MX 2-3 (hipótesis a validar) |
 
 **\* Sobre 0.6:** si NO tienes competidores, NO los inventes. Se descubren automáticamente con TrendTrack (Sección 2). El **único** input manual del motor (Sección 5) es confirmar/pegar esa lista si TrendTrack no la resuelve.
