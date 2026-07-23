@@ -15,6 +15,7 @@ motor-research-dtc/
 ```
 
 ## Empieza aquí
+- **[INSTALL.md](INSTALL.md)** — 🔧 **cómo instalar el motor en tu Claude** (base, skills, tokens, MCPs, costos).
 - **[MOTOR DE RESEARCH v4.0 — Spec Operativo](MOTOR%20DE%20RESEARCH%20v4.0%20—%20Spec%20Operativo.md)** — la **autoridad vigente**: mapa de docs (00, 14-21, B0/B1, 10), decisiones de diseño, pipeline F0-F6.
 - **Skill ejecutable `/voc-research`** — el motor v4.0 corrible en cualquier sesión de Claude Code (a nivel usuario en `~/.claude/skills/voc-research/`, **fuera de este repo**).
 - **[HANDOFF.md](HANDOFF.md)** — traspaso · **[motor/](motor/)** el método · **[casos/higado-mx/](casos/higado-mx/)** el caso de referencia.
