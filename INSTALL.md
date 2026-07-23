@@ -19,6 +19,26 @@ pip install -r requirements.txt      # openpyxl + python-docx
 
 ---
 
+## 0.1 Cómo obtener los repos: `git clone` (recomendado) vs ZIP
+
+**Recomendado: `git clone`.** Cuando se publiquen correcciones, actualizas con `git pull` (un comando) sin perder tu configuración.
+
+**Si prefieres el ZIP** (botón verde *Code → Download ZIP*), funciona igual — todo lo necesario viaja dentro (skills, scripts, plantillas, `.env.example`). Pero ojo con estas 4 trampas:
+
+1. **Sigues necesitando acceso.** Los repos son **privados**: inicia sesión en GitHub con la cuenta que te invitaron, o el botón de descarga no aparece.
+2. **La carpeta cambia de nombre.** Se extrae como `motor-creativos-dtc-main` (con el sufijo de la rama). Renómbrala a `motor-creativos-dtc` o ajusta los `cd` de esta guía.
+3. **Windows esconde lo que necesitas.** El ZIP **sí** trae `.env.example` y la carpeta `.claude/`, pero el Explorador de Windows los oculta por empezar con punto. Actívalos en *Vista → Elementos ocultos*, o trabaja desde la terminal (ahí siempre se ven).
+4. **Sin `git` no hay actualizaciones.** Cada corrección nueva = volver a descargar el ZIP. **Antes de reemplazar la carpeta, guarda aparte tu `.env` y tu `config.local.json`** — son tuyos y no vienen en el ZIP, así que se perderían.
+
+Si Windows marca los archivos como "bloqueados" por venir de internet, desbloquéalos desde la carpeta:
+```powershell
+Get-ChildItem -Recurse | Unblock-File
+```
+
+> **Nota:** el ZIP **no** incluye `.env`, `config.local.json` ni `casos/` — están gitignored. Eso es correcto: son tus secretos y tus datos, y los creas tú en los pasos siguientes.
+
+---
+
 ## 1. Motor de Research v4.0 (etapa 1 — produce el Spine)
 
 ### 1.1 Clonar
